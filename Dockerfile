@@ -1,5 +1,5 @@
-FROM blkpark/jenkins
-MAINTAINER Blake Park  "blkpark@blkpark.com"
+FROM jenkins/jenkins:lts
+LABEL author="blkpark@blkpark.com"
 
 # needed by docker
 USER root
